@@ -18,6 +18,9 @@
            sync-c="true"
            sync-j="4" />
 
+<!-- BEGIN T-ROM -->
+<project path="." name="T-ROM-Project/android_device_t-rom_q5_q3e_mt6735" remote="github" revision="cm-13.0" />
+<!-- END T-ROM -->
 <!-- BEGIN CYANOGENMOD -->
   <project path="build" name="CyanogenMod/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
